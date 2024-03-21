@@ -1,0 +1,41 @@
+{
+  "name": "enimat",
+  "version": "1.0.0",
+  "description": "querystringify with typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WymanMills/enimat.git"
+  },
+  "keywords": [
+    "query",
+    "string",
+    "voluptatem",
+    "querystring",
+    "possimus",
+    "stringify",
+    "quis",
+    "decode",
+    "perspiciatis",
+    "vero"
+  ],
+  "author": "SoniaBoyer",
+  "license": "MIT",
+  "homepage": "https://github.com/WymanMills/enimat.git",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "typescript": "^3.0.3"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}
